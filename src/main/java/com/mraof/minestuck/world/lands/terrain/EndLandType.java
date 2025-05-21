@@ -47,8 +47,10 @@ public class EndLandType extends TerrainLandType
 		registry.setBlock("structure_primary", Blocks.END_STONE_BRICKS);
 		registry.setBlockState("structure_primary_decorative", Blocks.PURPUR_PILLAR.defaultBlockState().setValue(RotatedPillarBlock.AXIS, Direction.Axis.Y));
 		registry.setBlock("structure_primary_stairs", Blocks.END_STONE_BRICKS);
+		registry.setBlock("structure_primary_slab", Blocks.END_STONE_BRICK_SLAB);
 		registry.setBlock("structure_secondary", Blocks.PURPUR_BLOCK);
 		registry.setBlock("structure_secondary_stairs", Blocks.PURPUR_STAIRS);
+		registry.setBlock("structure_secondary_slab", Blocks.PURPUR_SLAB);
 		registry.setBlock("structure_planks", Blocks.BRICKS);
 		registry.setBlock("structure_planks_slab", Blocks.BRICK_SLAB);
 		registry.setBlock("village_path", MSBlocks.COARSE_END_STONE);
@@ -57,8 +59,6 @@ public class EndLandType extends TerrainLandType
 		registry.setBlock("structure_wool_3", Blocks.PURPLE_WOOL);
 		registry.setBlock("cruxite_ore", MSBlocks.END_STONE_CRUXITE_ORE);
 		registry.setBlock("uranium_ore", MSBlocks.END_STONE_URANIUM_ORE);
-		registry.setBlock("structure_primary_slab", MSBlocks.END_STONE_BRICK_SLAB);
-		registry.setBlock("structure_secondary_slab", MSBlocks.PURPUR_SLAB);
 	}
 	
 	@Override
