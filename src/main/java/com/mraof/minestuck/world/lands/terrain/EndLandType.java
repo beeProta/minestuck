@@ -57,6 +57,8 @@ public class EndLandType extends TerrainLandType
 		registry.setBlock("structure_wool_3", Blocks.PURPLE_WOOL);
 		registry.setBlock("cruxite_ore", MSBlocks.END_STONE_CRUXITE_ORE);
 		registry.setBlock("uranium_ore", MSBlocks.END_STONE_URANIUM_ORE);
+		registry.setBlock("structure_primary_slab", MSBlocks.END_STONE_BRICK_SLAB);
+		registry.setBlock("structure_secondary_slab", MSBlocks.PURPUR_SLAB);
 	}
 	
 	@Override
