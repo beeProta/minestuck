@@ -121,6 +121,8 @@ public final class StructureBlockRegistry
 		registerBlock("stained_glass_1", Blocks.GRAY_STAINED_GLASS.defaultBlockState());
 		registerBlock("stained_glass_2", Blocks.LIGHT_GRAY_STAINED_GLASS.defaultBlockState());
 		registerBlock("slime", Blocks.SLIME_BLOCK.defaultBlockState());
+		registerBlock("structure_primary_slab", Blocks.STONE_BRICK_SLAB.defaultBlockState());
+		registerBlock("structure_seconary_slab", Blocks.NETHER_BRICK_SLAB.defaultBlockState());
 		
 		defaultRegistry.setBlock("surface", Blocks.GRASS_BLOCK);
 		defaultRegistry.setBlock("upper", Blocks.DIRT);
